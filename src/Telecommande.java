@@ -1,14 +1,14 @@
 class Telecommande {
     //ATTRIBUT
-    Lampe[] lampe;
+    Machine[] lampe;
 
     //CONSTRUCTEUR
     public Telecommande() {
-        this.lampe = new Lampe[10];
+        this.lampe = new Machine[10];
     }
 
     //METHODES
-    public void ajouterLampe(Lampe l) {
+    public void ajouterLampe(Machine l) {
         int i=0;
         while (this.lampe[i] != null) {
             i++;
